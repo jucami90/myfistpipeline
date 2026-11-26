@@ -35,6 +35,7 @@ jobs:
             #echo $DOCKER_PWD | docker login -u $DOCKER_LOGIN --password-stdin
             #docker push ideaslocas/$IMAGE_NAME:$TAG
 workflows:
+  version: 2
   main:
     jobs:
       - build
