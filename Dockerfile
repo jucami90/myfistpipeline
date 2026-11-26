@@ -1,8 +1,8 @@
 FROM alpine:3.12
 
-WORKDIR /myfirstpipeline
+WORKDIR /myfistpipeline
 
-ADD . /myfirstpipeline
+ADD . /myfistpipeline
 
 RUN apk add python3
 
