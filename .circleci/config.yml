@@ -36,6 +36,7 @@ jobs:
       #       docker push ideaslocas/$IMAGE_NAME:$TAG
 
 workflows:
+  version: 2
   main:
     jobs:
       - build
